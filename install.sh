@@ -12,7 +12,7 @@ python -m http.server \$init >/dev/null 2>&1\" > /bin/offwebinit
 chmod +x /bin/offwebinit
 
 echo \"#!/bin/bash
-offwebinit \"\$@\"" > /bin/offweb
-chmod +x /bin/offweb
+offwebinit \"\$@\"" > /usr/bin/offweb
+chmod +x /usr/bin/offweb
 
 echo \"Uso da ferramenta: offweb exemplo.com\"
