@@ -8,4 +8,3 @@ echo "echo Este é o link da sua página offline: 0.0.0.0:$init
 python -m http.server $init >/dev/null 2>&1" > /bin/offwebinit
 chmod +x /bin/offwebinit" > /bin/offweb
 chmod +x /bin/offweb
-echo "Uso da ferramenta: offweb exemplo.com"
